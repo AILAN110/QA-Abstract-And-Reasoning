@@ -15,3 +15,4 @@
 * 模型：encode采用双向gru,decode采用gru的seq2seq结构；外加attention结构
 * 训练方式：TeacherForcing
 * 预测方式：beamSearch
+* 存在缺陷：出现OOV问题、预测出现大量重复词
