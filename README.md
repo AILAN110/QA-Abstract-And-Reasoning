@@ -7,11 +7,11 @@
 
 # 项目文件说明
 
-## 1、1_word2vec文件下主要是NLG第一阶段的任务，进行词向量训练
+## 1、word2vec文件下主要是NLG第一阶段的任务，进行词向量训练
 
 * 主要任务：提取/整理有用的数据、整合成标准的训练数据/测试数据、生成词典、训练词向量等
 
-## 2、2_baseline文件主要是NLG的baseline,主要用的seq2seq模型，其中会包含1_word2vec的代码，使项目层层递进方式进行
+## 2、baseline文件主要是NLG的baseline,主要用的seq2seq模型，其中会包含1_word2vec的代码，使项目层层递进方式进行
 * 模型：encode采用双向gru,decode采用gru的seq2seq结构；外加attention结构
 * 训练方式：TeacherForcing
 * 预测方式：beamSearch
