@@ -1,0 +1,134 @@
+【NLP数据集推荐】
+CLUEDatasetSearch
+中英文NLP数据集。可以点击搜索。
+https://github.com/CLUEbenchmark/CLUEDatasetSearch
+您可以通过上传数据集信息贡献你的力量。上传五个或以上数据集信息并审核通过后，该同学可以作为项目贡献者，并显示出来。
+NER
+QA
+情感分析
+文本分类
+文本匹配
+文本摘要
+机器翻译
+知识图谱
+语料库
+阅读理解
+贡献与参与
+
+
+搜索所有中文NLP数据集，附常用英文NLP数据集
+https://www.cluebenchmarks.com/dataSet_search.html
+
+https://zhuanlan.zhihu.com/p/84429238 可以尝试将pyroch的model转为tf格式的
+
+【蓝天月影github】
+https://github.com/qq751220449/DBNet
+https://github.com/qq751220449/crnn_torch
+
+【HAN处理长文本】
+https://blog.csdn.net/vivian_ll/article/details/106238245
+
+【网络正文提取】
+https://github.com/cnyangkui/html-extractor
+
+【机器翻译】
+https://github.com/tensorflow/nmt
+
+【文本生成工具】
+https://github.com/asyml/texar
+
+【position embedding讲解】
+https://zhuanlan.zhihu.com/p/166244505
+
+【bert-as-service】
+https://github.com/hanxiao/bert-as-service
+
+【文本数据预处理】
+https://www.jianshu.com/p/37e529c8baa9?utm_campaign=hugo&utm_medium=reader_share&utm_content=note&utm_source=weixin-friends
+
+【tf2学习】
+https://www.kesci.com/mw/project/5e585c9c0e2b66002c25da03
+
+【glove词向量下载】
+https://nlp.stanford.edu/projects/glove/
+
+【创建预训练数据】
+https://github.com/google-research/bert/blob/master/create_pretraining_data.py
+
+【beamsearch】
+https://zhuanlan.zhihu.com/p/109183727
+https://github.com/jayasoo/nmt-tensorflow
+
+【设置多卡训练】
+https://zhuanlan.zhihu.com/p/88165283 
+
+【基于强化学习的机器人】
+https://www.zybuluo.com/Rays/note/1028782
+
+【gan生成文本】
+https://blog.csdn.net/ycy0706/article/details/80425091
+
+【milabot机器人】
+https://github.com/BlackwaterTechnology/milabot
+
+【上下位词抽取】
+https://github.com/liuhuanyong/HyponymyExtraction
+
+【transformer】
+https://github.com/tensorflow/models/tree/master/official/nlp/transformer
+
+【LTP 4】
+LTP（Language Technology Platform） 提供了一系列中文自然语言处理工具，用户可以使用这些工具对于中文文本进行分词、词性标注、句法分析等等工作。
+https://github.com/HIT-SCIR/ltp
+
+关于AI领域的话，下面有两个CCF推荐的期刊目录，大家可以参考下，中英文期刊名称都有，大家可以根据自身情况选择适宜的期刊。
+- 中国计算机学会推荐国际学术会议和期刊目录
+- 中国计算机学会推荐中文科技期刊目录
+
+下面是一些Ai领域的顶级期刊：
+(1)以下是不完整的列表，但基本覆盖。 
+
+机器学习顶级会议：NIPS, ICML, UAI, AISTATS;  （期刊：JMLR, ML, Trends in ML, IEEE T-NN） 
+计算机视觉和图像识别：ICCV, CVPR, ECCV;  （期刊：IEEE T-PAMI, IJCV, IEEE T-IP） 
+人工智能：IJCAI, AAAI; （期刊AI） 
+另外相关的还有SIGRAPH, KDD, ACL, SIGIR, WWW等。 
+特别是，如果做机器学习，必须地，把近4年的NIPS, ICML翻几遍；如果做计算机视觉，要把近4年的ICCV, CVPR, NIPS, ICML翻几遍。 
+(2)另外补充一下：大部分顶级会议的论文都能从网上免费下载到，如CV方面：http://www.cvpapers.com/index.html; NIPS: http://books.nips.cc/;  JMLR(期刊): http://jmlr.csail.mit.edu/papers/;  COLT和ICML(每年度的官网): http://www.cs.mcgill.ca/~colt2009/proceedings.html。希望这些信息对大家有点帮助。
+(3)说些自己的感受。我的研究方向主要是CV与Deep Learning，但统计学习和计算神经科学都有涉及，对Data mining和Natural Language Processing也有一定了解。这些领域，从方法和模型的角度看，统计模型（包括probabilistic graphical model和statistical learning theory）是主流也是非常有影响力的方法。有个非常明显的趋势：重要的方法和模型最先在NIPS或ICML出现，然后应用到CV,DM.NLP。虽然具体问题和应用也很重要，但多关注和结合这些方法也很有意义。 
+注:
+NIPS = Neural Information Processing Systems  https://nips.cc/
+ICML = International Conference on Machine Learning https://icml.cc
+UAI(AUAI) =Association for Uncertainty in Artifical Intelligence http://www.auai.org/
+AISTATS = Artificial Intelligence and Statistics http://www.aistats.org/
+JMLR = Journal of Machine Learning Research http://jmlr.org/
+IJCAI = International Joint Conference on Artifical Intelligence http://ijcai.org/
+AAAI = Association for the Advancement of Aritifical Intelligence http://www.aaai.org/home.html
+
+【工具分享】
+MiNLP-Tokenizer
+1. 工具介绍
+MiNLP-Tokenizer是小米AI实验室NLP团队自研的中文分词工具，基于深度学习序列标注模型实现，在公开测试集上取得了SOTA效果。其具备以下特点：
+分词效果好：基于深度学习模型在大规模语料上进行训练，粗、细粒度在SIGHAN 2005 PKU测试集上的F1分别达到95.7%和96.3%[注1]
+轻量级模型：精简模型参数和结构，模型仅有20MB
+词典可定制：灵活、方便的干预机制，根据用户词典对模型结果进行干预
+多粒度切分：提供粗、细粒度两种分词规范，满足各种场景需要
+调用更便捷：一键快速安装，API简单易用
+注1：我们结合公司应用场景，制定了粗、细粒度分词规范，并按照规范对PKU测试集重新进行了标注（由于测试集版权限制，未包含在本项目中）。
+2. 安装
+pip全自动安装：
+pip install minlp-tokenizer
+适用环境：Python 3.5~3.7，TensorFlow>=1.15,<2
+3. 使用API
+from minlptokenizer.tokenizer import MiNLPTokenizer
+tokenizer = MiNLPTokenizer(granularity='fine')  # fine：细粒度，coarse：粗粒度，默认为细粒度
+print(tokenizer.cut('今天天气怎么样？'))
+4. 自定义用户词典
+通过用户词典List添加：
+from minlptokenizer.tokenizer import MiNLPTokenizer
+tokenizer = MiNLPTokenizer(['word1', 'word2'], granularity='fine') #用户自定义干预词典传入
+通过文件路径方式添加
+from minlptokenizer.tokenizer import MiNLPTokenizer
+tokenizer = MiNLPTokenizer('/path/to/your/lexicon/file', granularity='coarse')  # 构造函数的参数为用户词典路径
+5 体验感受
+目前该工具处于开发阶段，可能之后的功能会逐步完善，比如词性标注、命名实体识别、依存句法分析，另外就是可能正如开发者所说模型比较轻量级，分词速度很快，长文本情况下还能保持精度，大家可以体验下
+https://github.com/XiaoMi/MiNLP/tree/main/minlp-tokenizer
