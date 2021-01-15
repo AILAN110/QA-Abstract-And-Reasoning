@@ -19,7 +19,8 @@ QA
 搜索所有中文NLP数据集，附常用英文NLP数据集
 https://www.cluebenchmarks.com/dataSet_search.html
 
-https://zhuanlan.zhihu.com/p/84429238 可以尝试将pyroch的model转为tf格式的
+【将pyroch的model转为tf格式】
+https://zhuanlan.zhihu.com/p/84429238 
 
 【蓝天月影github】
 https://github.com/qq751220449/DBNet
