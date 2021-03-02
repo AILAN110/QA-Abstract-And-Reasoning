@@ -22,11 +22,11 @@
 ## 5、utils文件夹存放工具类
 ## 6、tf_pgn文件夹基于baseline的改进
 * pgn
-- rnn_decoder.py新增Pointer类，计算pgen系数
+-- rnn_decoder.py新增Pointer类，计算pgen系数
  
-- pgn.py中记录每一次的pgen
+-- pgn.py中记录每一次的pgen
 
-- decoding.py中将attention概率与预测概率融合
+-- decoding.py中将attention概率与预测概率融合
 
 * coverage
 
