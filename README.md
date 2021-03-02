@@ -19,3 +19,20 @@
 
 ## 3、notebook文件夹下存放平时代码练习与代码总结
 ## 4、doc文件夹下存放平时感悟与总结
+## 5、utils文件夹存放工具类
+## 6、tf_pgn文件夹基于baseline的改进
+* pgn
+
+  -- rnn_decoder.py新增Pointer类，计算pgen系数
+ 
+  -- pgn.py中记录每一次的pgen
+
+  -- decoding.py中将attention概率与预测概率融合
+
+* coverage
+
+  -- rnn_decoder.py中attention类进行修改，详见BahdanauAttentionCoverage
+ 
+  -- pgn.py中记录每一次的attention
+
+  -- loss.py中计算coverage_loss
