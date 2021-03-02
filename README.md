@@ -31,3 +31,8 @@
 
 * coverage
 
+  -- rnn_decoder.py中attention类进行修改，详见BahdanauAttentionCoverage
+ 
+  -- pgn.py中记录每一次的attention
+
+  -- loss.py中计算coverage_loss
