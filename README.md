@@ -39,6 +39,7 @@
   
 ## 7、transformer_pgn文件夹采用transformer+pgn结构
 
+* transformer+pgn
   -- models/transformer.py中修改Decoder,在最后一层输出与attention计算pgen
 
   -- models/transformer.py中PGN_TRANSFORMER中调用decoding.py中方法，将attention概率与预测概率融合
